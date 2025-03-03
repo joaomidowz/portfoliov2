@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
+
+.swiper {
+  width: 228px;
+  height: 295px;
+}
+
+Images {
+    width: 100%;
+    height: 10%;
+  }
+
+
