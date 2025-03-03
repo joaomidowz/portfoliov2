@@ -9,11 +9,13 @@
   --color-secundary: #524be0;
   --drop-shadow-3xl: 0px 3px 1px rgba(0, 0, 0, 0.25);
   --shadow-3xl: 0px -6px 10px rgba(0, 0, 0, 0.45);
+  --inset-shadow-md: inset 0 6px 10px rgba(0, 0, 0, 0.45); 
 }
+
 
 :root {
   --primary: #e8e8f9;
-  --secundary: #524be0;
+  --secundary: #524BE0;
   --terciary: #e8e8f9;
 }
 

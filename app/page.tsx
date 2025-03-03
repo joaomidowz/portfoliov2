@@ -4,6 +4,7 @@ import Techs from "@/components/Techs"
 import Projects from "@/components/Projects";
 import Image from "next/image";
 import { StrictMode } from "react";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <div id="tech" className="-mt-5"><Techs /></div>
         <div id="tech" className="-mt-5"><About /></div>
         <div id="tech" className="-mt-5"><Projects /></div>
+        <div id="tech" className=""><Footer /></div>
       </div>
     </StrictMode>
   );

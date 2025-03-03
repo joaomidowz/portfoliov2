@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Projects() {
     return (
-        <div className="h-100 rounded-2xl shadow-3xl bg-secundary font-all font-bold">
+        <div className="h-100 rounded-t-2xl shadow-3xl bg-secundary font-all font-bold">
             <h2 className="text-base text-primary p-5">Projetos</h2>
             <Swiper
                 slidesPerView={1}
