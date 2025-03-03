@@ -9,7 +9,7 @@ export default function Home() {
     <StrictMode>
       <div className="h-screen ">
         <div id="home" className=""><Header /></div>
-        <div id="tech" className=""><Techs /></div>
+        <div id="tech" className="-mt-5"><Techs /></div>
       </div>
     </StrictMode>
   );
