@@ -4,9 +4,11 @@
 
 @theme {
   --breakpoint-xs: 375px;
+  --breakpoint-xs1: 425px;
   --font-all: "Atkinson Hyperlegible", sans-serif;
   --text-1hl: 42px;
   --text-2hl: 52px;
+  --text-3hl: 64px;
   --color-primary: #e8e8f9;
   --color-secundary: #524be0;
   --drop-shadow-3xl: 0px 3px 1px rgba(0, 0, 0, 0.25);
@@ -15,6 +17,10 @@
 }
 
 
+body {
+  font-family: "Atikson Hyperlegible", sans-serif;
+}
+
 @media (min-width: 375px) {
   .image-responsive {
     width: 35px !important;
@@ -22,6 +28,9 @@
   
 }
 
-body {
-  font-family: "Atikson Hyperlegible", sans-serif;
+@media (min-width: 425px) {
+  .image-responsive {
+    width: 45px !important;
+  }
+  
 }

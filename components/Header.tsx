@@ -6,13 +6,13 @@ export default function Header() {
     return (
         <div className="h-100 bg-primary font-all ">
             <header className="p-5">
-                <nav className="flex flex-row px-0.5 justify-between sm:justify-end font-bold drop-shadow-3xl">
-                    <button className="text-sm px-1 py-2 sm:w-[150px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Tecnologias</button>
-                    <button className="text-sm px-4 py-2 sm:w-[150px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Sobre</button>
-                    <button className="text-sm px-2 py-2 sm:w-[150px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Projetos</button>
+                <nav className="flex flex-row px-3 justify-between sm:justify-end font-bold drop-shadow-3xl">
+                    <button className="text-sm px-1 py-2 xs1:w-[100px] sm:w-[150px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Tecnologias</button>
+                    <button className="text-sm px-4 py-2 xs1:w-[100px] sm:w-[150px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Sobre</button>
+                    <button className="text-sm px-2 py-2 xs1:w-[100px] sm:w-[150px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Projetos</button>
                 </nav>
             </header>
-            <div className="flex flex-col text-secundary px-5.5 pt-10">
+            <div className="flex flex-col text-secundary px-8 pt-10">
                 <div>
                     <p className="text-base xs:text-xl -mb-4">Olá, me chamo João👋</p>
                     <div className="flex flex-row">
