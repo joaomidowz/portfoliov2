@@ -3,33 +3,25 @@
 
 
 @theme {
+  --breakpoint-xs: 375px;
   --font-all: "Atkinson Hyperlegible", sans-serif;
   --text-1hl: 42px;
+  --text-2hl: 52px;
   --color-primary: #e8e8f9;
   --color-secundary: #524be0;
   --drop-shadow-3xl: 0px 3px 1px rgba(0, 0, 0, 0.25);
   --shadow-3xl: 0px -6px 10px rgba(0, 0, 0, 0.45);
-  --inset-shadow-md: inset 0 6px 10px rgba(0, 0, 0, 0.45); 
+  --inset-shadow-md: inset 0 6px 10px rgba(0, 0, 0, 0.45);
 }
 
 
-:root {
-  --primary: #e8e8f9;
-  --secundary: #524BE0;
-  --terciary: #e8e8f9;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary: #e8e8f9;
-    --secundary: #524be0;
-    --terciary: #e8e8f9;
+@media (min-width: 375px) {
+  .image-responsive {
+    width: 35px !important;
   }
+  
 }
 
 body {
-  color: var(--foreground);
-
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Atikson Hyperlegible", sans-serif;
 }

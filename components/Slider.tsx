@@ -21,21 +21,13 @@ export default function Slider() {
             >
                 <SwiperSlide>
                     <Image
-                        className='Images'
-                        width={208}
-                        height={255}
-                        alt=""
-                        src="/LoginAnimated.svg"
-                        style={{ objectFit: "cover" }}
-                        sizes="" /> </SwiperSlide>
-                <SwiperSlide>
-                    <Image
                         className='Images '
                         width={228}
                         height={295}
                         alt=""
                         src="/Unichat.svg"
-                        sizes="" /> </SwiperSlide>
+
+                        style={{ objectFit: "cover" }} /> </SwiperSlide>
                 <SwiperSlide>
                     <Image
                         className='Images'
@@ -43,7 +35,8 @@ export default function Slider() {
                         height={295}
                         alt=""
                         src="/Unichat.svg"
-                        sizes="" /> </SwiperSlide>
+
+                        style={{ objectFit: "cover" }} /> </SwiperSlide>
                 <SwiperSlide>
                     <Image
                         className='Images'
@@ -51,7 +44,8 @@ export default function Slider() {
                         height={295}
                         alt=""
                         src="/LoginAnimated.svg"
-                        sizes="" /> </SwiperSlide>
+
+                        style={{ objectFit: "cover" }} /> </SwiperSlide>
             </Swiper>
 
         </div>

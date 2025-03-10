@@ -10,31 +10,35 @@ export default function Footer() {
                 <button className="text-primary p-4 bg-secundary rounded-2xl">Copiar!</button>
                 <p className="">Desenvolvido por</p>
                 <Image
+                    className="image-icon"
                     width={50}
                     height={50}
                     alt="RoundedIcon"
                     src="/RoundedIcon.svg"
                     sizes="" />
-                    <div className="flex flex-row gap-3">
+                <div className="flex flex-row gap-3">
                     <Image
-                    width={30}
-                    height={30}
-                    alt="Linkedin"
-                    src="/Linkedin.svg"
-                    sizes="" />
+                        className="image-responsive"
+                        width={30}
+                        height={30}
+                        alt="Linkedin"
+                        src="/Linkedin.svg"
+                        sizes="" />
                     <Image
-                    width={30}
-                    height={30}
-                    alt="Linkedin"
-                    src="/Github.svg"
-                    sizes="" />
+                        className="image-responsive"
+                        width={30}
+                        height={30}
+                        alt="Linkedin"
+                        src="/Github.svg"
+                        sizes="" />
                     <Image
-                    width={30}
-                    height={30}
-                    alt="Linkedin"
-                    src="/GoogleDocs.svg"
-                    sizes="" />
-                    </div>
+                        className="image-responsive"
+                        width={30}
+                        height={30}
+                        alt="Linkedin"
+                        src="/GoogleDocs.svg"
+                        sizes="" />
+                </div>
             </div>
         </div>
     );
