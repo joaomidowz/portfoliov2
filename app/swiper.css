@@ -3,7 +3,33 @@
   height: 295px;
 }
 
-Images {
-  width: 100%;
-  height: 100%;
+/* swiper.css */
+.ProjectsSwiper {
+  overflow: visible !important; /* Garante que o Swiper não cause scroll lateral */
+}
+
+.swiper-slide {
+  overflow: visible !important; /* Garante que os slides não causem scroll lateral */
+}
+
+.Images {
+  transition: transform 300ms ease-out;
+  width: 100% !important;
+  will-change: transform;
+}
+
+.Images:hover {
+  transform: scale(1.05);
+}
+
+.Images:active {
+  transform: scale(0.90);
+}
+
+@media (min-width: 768px) {
+  .swiper {
+    width: 95%;
+    height: 100%;
+  }
+
 }

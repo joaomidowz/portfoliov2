@@ -34,3 +34,15 @@ body {
   }
   
 }
+
+@media (min-width: 768px) {
+  .image-responsive {
+    width: 50px !important;
+  }
+  .image-home-icon {
+    width: 180px !important;
+  }
+  .image-tech {
+    width: 250px !important;
+  }
+}

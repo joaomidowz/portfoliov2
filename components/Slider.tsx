@@ -10,42 +10,55 @@ import Image from "next/image";
 
 export default function Slider() {
     return (
-        <div className="">
+        <div className="p-4 overflow-hidden">
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
                 freeMode={true}
                 loop={true}
                 modules={[Pagination, Navigation]}
-                className="ProjectsSwiper transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
+                className="ProjectsSwiper overflow-hidden"
+                breakpoints={{
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    }
+                }}
             >
                 <SwiperSlide>
                     <Image
-                        className='Images '
-                        width={228}
-                        height={295}
+                        className='Images'
+                        width={497.29}
+                        height={643}
                         alt=""
                         src="/Unichat.svg"
-
-                        style={{ objectFit: "cover" }} /> </SwiperSlide>
+                        style={{ objectFit: "cover" }} />
+                </SwiperSlide>
                 <SwiperSlide>
                     <Image
                         className='Images'
-                        width={228}
-                        height={295}
+                        width={497.29}
+                        height={643}
                         alt=""
-                        src="/Unichat.svg"
-
-                        style={{ objectFit: "cover" }} /> </SwiperSlide>
-                <SwiperSlide>
+                        src="/LoginAnimated.png"
+                        style={{ objectFit: "cover" }} />
+                </SwiperSlide><SwiperSlide>
                     <Image
                         className='Images'
-                        width={228}
-                        height={295}
+                        width={497.29}
+                        height={643}
                         alt=""
-                        src="/LoginAnimated.svg"
-
-                        style={{ objectFit: "cover" }} /> </SwiperSlide>
+                        src="/Unichat.svg"
+                        style={{ objectFit: "cover" }} />
+                </SwiperSlide><SwiperSlide>
+                    <Image
+                        className='Images'
+                        width={497.29}
+                        height={643}
+                        alt=""
+                        src="/LoginAnimated.png"
+                        style={{ objectFit: "cover" }} />
+                </SwiperSlide>
             </Swiper>
 
         </div>
