@@ -10,11 +10,14 @@
   --text-2hl: 52px;
   --text-3hl: 64px;
   --text-4hl: 90px;
+  --text-5hl: 130px;
   --color-primary: #e8e8f9;
   --color-secundary: #524be0;
+  --color-terciary: #E8E8F9;
   --drop-shadow-3xl: 0px 3px 1px rgba(0, 0, 0, 0.25);
   --shadow-3xl: 0px -6px 10px rgba(0, 0, 0, 0.45);
   --inset-shadow-md: inset 0 6px 10px rgba(0, 0, 0, 0.45);
+  --gap-negative: -20px;
 }
 
 
@@ -26,32 +29,38 @@ body {
   .image-responsive {
     width: 35px !important;
   }
-  
+
 }
 
 @media (min-width: 425px) {
   .image-responsive {
     width: 45px !important;
   }
-  
+
+  .image-footer {
+    width: 45px !important;
+  }
 }
 
 @media (min-width: 768px) {
   .image-responsive {
     width: 50px !important;
   }
+
   .image-home-icon {
-    width: 180px !important;
+    width: 170px !important;
   }
-  /* .image-tech {
-    width: 250px !important;
-  } */
+
+  .image-footer {
+    width: 50px !important;
+  }
 }
 
 @media (min-width: 1024) {
   .image-responsive {
-    width: 70px !important;
+    width: 80px !important;
   }
+
   .image-home-icon {
     width: 250px !important;
   }
@@ -59,4 +68,28 @@ body {
   .image-icon {
     width: 80px !important;
   }
+
+  .image-footer {
+    width: 50px !important;
+  }
+
+  .git {
+    width: 60px !important;
+  }
+
+}
+
+@media (min-width: 1280) {
+  .image-responsive {
+    width: 105px !important;
+  }
+
+  .image-home-icon {
+    width: 320px !important;
+  }
+
+  .image-icon {
+    width: 100px !important;
+  }
+
 }

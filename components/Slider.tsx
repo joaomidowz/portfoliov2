@@ -10,14 +10,14 @@ import Image from "next/image";
 
 export default function Slider() {
     return (
-        <div className="p-4 overflow-hidden">
+        <div className="p-4 overflow-hidden ">
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
                 freeMode={true}
                 loop={true}
                 modules={[Pagination, Navigation]}
-                className="ProjectsSwiper overflow-hidden"
+                className="ProjectsSwiper overflow-hidden xl:overflow-visible"
                 breakpoints={{
                     768: {
                         slidesPerView: 3,
@@ -25,6 +25,15 @@ export default function Slider() {
                     }
                 }}
             >
+                <SwiperSlide>
+                    <Image
+                        className='Images'
+                        width={497.29}
+                        height={643}
+                        alt=""
+                        src="/Unichat.svg"
+                        style={{ objectFit: "cover" }} />
+                </SwiperSlide>
                 <SwiperSlide>
                     <Image
                         className='Images'
