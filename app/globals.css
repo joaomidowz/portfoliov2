@@ -9,6 +9,7 @@
   --text-1hl: 42px;
   --text-2hl: 52px;
   --text-3hl: 64px;
+  --text-4hl: 90px;
   --color-primary: #e8e8f9;
   --color-secundary: #524be0;
   --drop-shadow-3xl: 0px 3px 1px rgba(0, 0, 0, 0.25);
@@ -42,7 +43,20 @@ body {
   .image-home-icon {
     width: 180px !important;
   }
-  .image-tech {
+  /* .image-tech {
     width: 250px !important;
+  } */
+}
+
+@media (min-width: 1024) {
+  .image-responsive {
+    width: 70px !important;
+  }
+  .image-home-icon {
+    width: 250px !important;
+  }
+
+  .image-icon {
+    width: 80px !important;
   }
 }

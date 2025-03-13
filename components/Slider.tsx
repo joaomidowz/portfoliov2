@@ -40,7 +40,7 @@ export default function Slider() {
                         width={497.29}
                         height={643}
                         alt=""
-                        src="/LoginAnimated.png"
+                        src="/Onebitflix.svg"
                         style={{ objectFit: "cover" }} />
                 </SwiperSlide><SwiperSlide>
                     <Image
