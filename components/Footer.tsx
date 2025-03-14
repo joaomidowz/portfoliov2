@@ -53,7 +53,11 @@ export default function Footer() {
                             src="/Github.svg"
                             sizes="" />
                     </Link>
-                    <Link href="https://docs.google.com" target="_blank" rel="noopener noreferrer" className="link-footer">
+                    <a href="/curriculoJoao.pdf"
+                                target="_blank"
+                                download
+                                rel="noopener noreferrer"
+                                className="link-footer">
                         <Image
                             className="image-footer transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
                             width={50}
@@ -61,7 +65,7 @@ export default function Footer() {
                             alt="Linkedin"
                             src="/GoogleDocs.svg"
                             sizes="" />
-                    </Link>
+                    </a>
 
 
 
