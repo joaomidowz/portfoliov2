@@ -25,16 +25,32 @@ body {
   font-family: "Atikson Hyperlegible", sans-serif;
 }
 
+.icons-link {
+  width: 30px !important;
+}
+
+.image-responsive {
+  width: 30px !important;
+}
+
 @media (min-width: 375px) {
-  .image-responsive {
+  .icons-link {
     width: 35px !important;
   }
 
+  .image-responsive {
+    width: 35px !important;
+  }
+  
 }
 
 @media (min-width: 425px) {
   .image-responsive {
-    width: 45px !important;
+    width: 40px !important;
+  }
+
+  .icons-link {
+    width: 40px !important;
   }
 
   .image-footer {
@@ -43,8 +59,12 @@ body {
 }
 
 @media (min-width: 768px) {
+  .icons-link {
+    width: 55px !important;
+  }
+
   .image-responsive {
-    width: 50px !important;
+    width: 55px !important;
   }
 
   .image-home-icon {
@@ -57,6 +77,10 @@ body {
 }
 
 @media (min-width: 1024) {
+  .icons-link {
+    width: 85px !important;
+  }
+
   .image-responsive {
     width: 80px !important;
   }
@@ -80,6 +104,10 @@ body {
 }
 
 @media (min-width: 1280) {
+  .icons-link {
+    width: 105px !important;
+  }
+
   .image-responsive {
     width: 105px !important;
   }

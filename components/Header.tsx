@@ -1,5 +1,6 @@
 //import "";
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Header() {
@@ -7,9 +8,9 @@ export default function Header() {
         <div className="h-100 bg-primary font-all sm:rounded-none sm:shadow-none lg:h-150 xl:h-screen">
             <header className="p-5">
                 <nav className="flex flex-row px-3 justify-between sm:justify-end sm:gap-5 lg:gap-10 font-bold drop-shadow-3xl">
-                    <button className="text-sm px-1 py-2 lg:py-3 xs1:w-[100px] lg:w-[120px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Tecnologias</button>
-                    <button className="text-sm px-4 py-2 lg:py-3 xs1:w-[100px] lg:w-[120px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Sobre</button>
-                    <button className="text-sm px-2 py-2 lg:py-3 xs1:w-[100px] lg:w-[120px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Projetos</button>
+                    <button className="cursor-pointer text-sm px-1 py-2 lg:py-3 xs1:w-[100px] lg:w-[120px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Tecnologias</button>
+                    <button className="cursor-pointer text-sm px-4 py-2 lg:py-3 xs1:w-[100px] lg:w-[120px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Sobre</button>
+                    <button className="cursor-pointer text-sm px-2 py-2 lg:py-3 xs1:w-[100px] lg:w-[120px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Projetos</button>
                 </nav>
             </header>
             <div className="flex flex-col text-secundary px-8 pt-10 sm:items-center sm:pt-5 xl:pt-10">
@@ -17,29 +18,37 @@ export default function Header() {
                     <p className="text-base -mb-4 xs:text-xl lg:text-3xl xl:text-4xl xl:-mb-13">Olá, me chamo João👋</p>
                     <div className="flex flex-row">
                         <h1 className="font-extrabold drop-shadow-3xl text-1hl xs:text-2hl sm:text-3hl lg:text-4hl xl:text-5hl ">Fullstack</h1>
-                        <div className="flex flex-row pt-2 ml-1 xs:pt-3 xs:ml-0.5 lg:pt-5.5 xl:pt-7.5">
-                            <Image
-                                className="image-responsive transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
-                                width={30}
-                                height={30}
-                                alt="Linkedin"
-                                src="/Linkedin.svg"
-                            />
-                            <Image
-                                className="image-responsive transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
-                                width={30}
-                                height={30}
-                                alt="GitHub"
-                                src="/Github.svg"
-                            />
-                            <Image
-                                className="image-responsive transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
-                                width={30}
-                                height={30}
-                                alt="GoogleDocs"
-                                src="/GoogleDocs.svg"
-                            />
+
+                        <div className="flex flex-row pt-5.5 ml-1 xs:pt-7 xs:ml-0.5 xs1:pt-6 md:pt-6.5 lg:pt-8.5 xl:pt-13.5">
+                            <Link href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="icons-link">
+                                <Image
+                                    className="image-responsive transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
+                                    width={70}
+                                    height={70}
+                                    alt="Linkedin"
+                                    src="/Linkedin.svg"
+                                />
+                            </Link>
+                            <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="icons-link">
+                                <Image
+                                    className="image-responsive transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
+                                    width={70}
+                                    height={70}
+                                    alt="GitHub"
+                                    src="/Github.svg"
+                                />
+                            </Link>
+                            <Link href="https://docs.google.com" target="_blank" rel="noopener noreferrer" className="icons-link md:-pt-5">
+                                <Image
+                                    className="image-responsive transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
+                                    width={70}
+                                    height={70}
+                                    alt="GoogleDocs"
+                                    src="/GoogleDocs.svg"
+                                />
+                            </Link>
                         </div>
+                        
                     </div>
                 </div>
                 <div className="flex flex-col items-center -mt-6 sm:-mt-10 lg:-mt-14 xl:-mt-22">
