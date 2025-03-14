@@ -22,7 +22,7 @@
 
 
 body {
-  font-family: "Atikson Hyperlegible", sans-serif;
+  font-family: var(--font-all);
 }
 
 .icons-link {
@@ -64,7 +64,7 @@ body {
   .link-footer {
     width: 45px !important;
   }
-  
+
   .image-footer {
     width: 45px !important;
   }
@@ -86,7 +86,7 @@ body {
   .link-footer {
     width: 50px !important;
   }
-  
+
   .image-footer {
     width: 50px !important;
   }
@@ -112,7 +112,7 @@ body {
   .link-footer {
     width: 65px !important;
   }
-  
+
   .image-footer {
     width: 65px !important;
   }
@@ -143,7 +143,7 @@ body {
   .link-footer {
     width: 75px !important;
   }
-  
+
   .image-footer {
     width: 75px !important;
   }
