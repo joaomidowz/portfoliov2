@@ -36,7 +36,7 @@ export default function Header() {
                                     src="/Linkedin.svg"
                                 />
                             </Link>
-                            <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="icons-link">
+                            <Link href="https://github.com/joaomidowz" target="_blank" rel="noopener noreferrer" className="icons-link">
                                 <Image
                                     className="image-responsive transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
                                     width={70}
@@ -45,7 +45,11 @@ export default function Header() {
                                     src="/Github.svg"
                                 />
                             </Link>
-                            <Link href="https://docs.google.com" target="_blank" rel="noopener noreferrer" className="icons-link md:-pt-5">
+                            <a href="/curriculoJoao.pdf"
+                                target="_blank"
+                                download
+                                rel="noopener noreferrer"
+                                className="icons-link">
                                 <Image
                                     className="image-responsive transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
                                     width={70}
@@ -53,7 +57,7 @@ export default function Header() {
                                     alt="GoogleDocs"
                                     src="/GoogleDocs.svg"
                                 />
-                            </Link>
+                            </a>
                         </div>
 
                     </div>
