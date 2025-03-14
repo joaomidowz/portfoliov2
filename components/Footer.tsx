@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const email = 'jgcustodio2005@gmail.com'
 
 export default function Footer() {
@@ -23,28 +24,38 @@ export default function Footer() {
                     alt="RoundedIcon"
                     src="/RoundedIcon.svg"
                     sizes="" />
-                <div className="flex flex-row gap-3">
-                    <Image
-                        className="image-footer transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
-                        width={30}
-                        height={30}
-                        alt="Linkedin"
-                        src="/Linkedin.svg"
-                        sizes="" />
-                    <Image
-                        className="image-footer git transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
-                        width={30}
-                        height={30}
-                        alt="Linkedin"
-                        src="/Github.svg"
-                        sizes="" />
-                    <Image
-                        className="image-footer transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
-                        width={30}
-                        height={30}
-                        alt="Linkedin"
-                        src="/GoogleDocs.svg"
-                        sizes="" />
+                <div className="flex flex-row gap-1">
+                    <Link href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="link-footer">
+
+                        <Image
+                            className="image-footer transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
+                            width={50}
+                            height={50}
+                            alt="Linkedin"
+                            src="/Linkedin.svg"
+                            sizes="" />
+                    </Link>
+                    <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="link-footer">
+                        <Image
+                            className="image-footer git transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
+                            width={50}
+                            height={50}
+                            alt="Linkedin"
+                            src="/Github.svg"
+                            sizes="" />
+                    </Link>
+                    <Link href="https://docs.google.com" target="_blank" rel="noopener noreferrer" className="link-footer">
+                        <Image
+                            className="image-footer transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
+                            width={50}
+                            height={50}
+                            alt="Linkedin"
+                            src="/GoogleDocs.svg"
+                            sizes="" />
+                    </Link>
+
+
+
                 </div>
             </div>
         </div>
