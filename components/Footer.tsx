@@ -1,8 +1,13 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-const email = 'jgcustodio2005@gmail.com'
+import { useState } from "react";
 
 export default function Footer() {
+    const [copied, setCopied] = useState(false);
+    const email = 'jgcustodio2005@gmail.com'
+    setTimeout(() => setCopied(false), 2000)
+
     return (
         <div className="h-[394px] lg:h-[460px] xl:h-[394px] bg-primary font-all font-bold inset-shadow-md text-secundary sm:rounded-none sm:inset-shadow-none ">
             <div className="flex flex-col items-center gap-5 lg:text-lg">
@@ -11,7 +16,11 @@ export default function Footer() {
                     <h2 className="text-lg pt-6 xl:text-primary xl:p-6 xl:text-2xl xl:font-normal xl:italic">Vamos trabalhar juntos!</h2>
                     <div className="flex flex-col items-center gap-5 xl:flex-row-reverse xl:gap-0">
                         <span className="bg-white p-3 rounded-2xl xl:font-normal xl:italic xl:px-10 xl:-ml-6">{email}</span>
-                        <button className="text-primary p-4 bg-secundary rounded-2xl xl:font-normal xl:italic xl:bg-terciary xl:text-secundary xl:p-3 xl:z-10 transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Copiar!</button>
+                        <button onClick={async () => {
+                            await navigator.clipboard.writeText(email)
+                            setCopied(true)
+                        }}
+                            className="text-primary p-4 bg-secundary rounded-2xl xl:font-normal xl:italic xl:bg-terciary xl:text-secundary xl:p-3 xl:z-10 transition-transform duration-300 ease-out hover:scale-105 active:scale-90">{copied ? 'Copiado!' : 'Copiar!'}</button>
                     </div>
 
                 </div>
