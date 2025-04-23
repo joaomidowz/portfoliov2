@@ -25,31 +25,14 @@ export default function Slider() {
                     }
                 }}
             >
+            
                 <SwiperSlide>
                     <Image
                         className='Images'
                         width={497.29}
                         height={643}
                         alt=""
-                        src="/Unichat.svg"
-                        style={{ objectFit: "cover" }} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image
-                        className='Images'
-                        width={497.29}
-                        height={643}
-                        alt=""
-                        src="/Unichat.svg"
-                        style={{ objectFit: "cover" }} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image
-                        className='Images'
-                        width={497.29}
-                        height={643}
-                        alt=""
-                        src="/Onebitflix.svg"
+                        src="/onebitflix.svg"
                         style={{ objectFit: "cover" }} />
                 </SwiperSlide><SwiperSlide>
                     <Image
@@ -57,7 +40,7 @@ export default function Slider() {
                         width={497.29}
                         height={643}
                         alt=""
-                        src="/Unichat.svg"
+                        src="/unichat.svg"
                         style={{ objectFit: "cover" }} />
                 </SwiperSlide><SwiperSlide>
                     <Image
