@@ -48,7 +48,7 @@ export default function Slider() {
                         width={497.29}
                         height={643}
                         alt=""
-                        src="/LoginAnimated.png"
+                        src="/LoginAnimated.svg"
                         style={{ objectFit: "cover" }} />
                 </SwiperSlide>
             </Swiper>
