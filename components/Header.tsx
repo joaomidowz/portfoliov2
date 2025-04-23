@@ -27,17 +27,17 @@ export default function Header() {
                     <div className="flex flex-row">
                         <h1 className="font-extrabold drop-shadow-3xl text-1hl xs:text-2hl sm:text-3hl lg:text-4hl xl:text-5hl ">Fullstack</h1>
 
-                        <div className="flex flex-row pt-5.5 ml-1 gap-3 xs:pt-7 xs1:pt-6 sm:pt-7 sm:ml-0.5 sm:gap-5 md:gap-3 md:pl-3 md:pt-7.5 lg:pt-10.5 xl:pt-13.5">
+                        <div className="flex flex-row pt-5.5 ml-1 gap-3 xs:pt-7 xs1:pt-6 sm:pt-7 sm:ml-0.5 sm:gap-5 md:gap-3 md:pl-3 md:pt-7.5 lg:pt-10.5 xl:pt-12">
                             <Link href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 ease-out hover:scale-105 active:scale-90">
-                                <FaLinkedin className="text-secundary w-6 h-6 xs:w-7.5 xs:h-7.5 xs1:w-8.5 xs1:h-8.5 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-14 lg:h-14 xl:w-[70px] xl:h-[70px]" />
+                                <FaLinkedin className="text-secundary w-6 h-6 xs:w-7.5 xs:h-7.5 xs1:w-8.5 xs1:h-8.5 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-14 lg:h-14 xl:w-[100px] xl:h-[100px]" />
                             </Link>
 
                             <Link href="https://github.com/joaomidowz" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 ease-out hover:scale-105 active:scale-90">
-                                <FaGithub className="text-secundary w-6 h-6 xs:w-7.5 xs:h-7.5 xs1:w-8.5 xs1:h-8.5 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-14 lg:h-14 xl:w-[70px] xl:h-[70px]" />
+                                <FaGithub className="text-secundary w-6 h-6 xs:w-7.5 xs:h-7.5 xs1:w-8.5 xs1:h-8.5 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-14 lg:h-14 xl:w-[100px] xl:h-[100px]" />
                             </Link>
 
                             <a href="/curriculoJoao.pdf" target="_blank" download rel="noopener noreferrer" className="transition-transform duration-300 ease-out hover:scale-105 active:scale-90">
-                                <FaFileAlt className="text-secundary w-6 h-6 xs:w-7.5 xs:h-7.5 xs1:w-8.5 xs1:h-8.5 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-14 lg:h-14 xl:w-[70px] xl:h-[70px]" />
+                                <FaFileAlt className="text-secundary w-6 h-6 xs:w-7.5 xs:h-7.5 xs1:w-8.5 xs1:h-8.5 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-14 lg:h-14 xl:w-[100px] xl:h-[90px]" />
                             </a>
                         </div>
 
