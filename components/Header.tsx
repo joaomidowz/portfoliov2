@@ -15,7 +15,7 @@ export default function Header() {
                     <button onClick={() => scrollToSection('project')} className="cursor-pointer text-sm px-2 py-2 lg:py-3 xs1:w-[100px] lg:w-[120px] bg-secundary text-primary rounded-sm transition-transform duration-300 ease-out hover:scale-105 active:scale-90">Projetos</button>
                 </nav>
             </header> */}
-            <div className="flex flex-col text-secundary lg:mt-16 px-8 pt-10 sm:items-center sm:pt-5 xl:pt-10">
+            <div className="flex flex-col items-center text-secundary lg:mt-16 px-8 pt-10 sm:items-center sm:pt-5 xl:pt-10">
                 <div>
                     <p className="text-base -mb-4 xs:text-xl lg:text-3xl xl:text-4xl xl:-mb-13">Olá, me chamo João👋</p>
                     <div className="flex flex-row">
