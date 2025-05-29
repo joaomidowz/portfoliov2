@@ -15,7 +15,7 @@ export default function Footer() {
     };
 
     return (
-        <div className="h-[394px] md:h-[460px] xl:h-[394px] bg-primary font-all font-bold inset-shadow-md text-secundary sm:rounded-none sm:inset-shadow-none">
+        <div className="h-[420px] md:h-[460px] xl:h-[394px] bg-primary font-all font-bold inset-shadow-md text-secundary sm:rounded-none sm:inset-shadow-none">
             <div className="flex flex-col items-center gap-5 lg:text-lg">
                 <div className="flex flex-col items-center gap-5 lg:text-lg xl:flex-row xl:mt-10 xl:bg-secundary xl:px-8 xl:rounded-3xl">
                     <h2 className="text-lg pt-6 xl:text-primary xl:p-6 xl:text-2xl xl:font-normal xl:italic">
