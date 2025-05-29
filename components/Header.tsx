@@ -5,12 +5,6 @@ import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
 
 
 export default function Header() {
-    // const scrollToSection = (id: string) => {
-    //     const section = document.getElementById(id);
-    //     if (section) {
-    //         section.scrollIntoView({ behavior: "smooth" })
-    //     }
-    // }
 
     return (
         <div className="h-100 bg-primary font-all sm:rounded-none sm:mt-20 sm:shadow-none lg:h-150 xl:h-screen">
