@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 const Slider = () => {
     const sliderRef = useRef<HTMLDivElement>(null);
