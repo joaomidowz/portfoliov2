@@ -1,19 +1,3 @@
-.swiper {
-  width: 228px;
-  height: 100%;
-}
-
-/* swiper.css */
-.ProjectsSwiper {
-  overflow: visible !important;
-  /* Garante que o Swiper não cause scroll lateral */
-}
-
-.swiper-slide {
-  overflow: visible !important;
-  /* Garante que os slides não causem scroll lateral */
-}
-
 .Images {
   transition: transform 300ms ease-out;
   width: 100% !important;
@@ -28,54 +12,8 @@
   transform: scale(0.90);
 }
 
-@media (min-width: 320px) {
-  .swiper {
-    width: 65%;
-  }
-
-}
-
-@media (min-width: 375px) {
-  .swiper {
-    width: 55%;
-  }
-
-}
-
-@media (min-width: 425px) {
-  .swiper {
-    width: 45%;
-  }
-
-}
-
-@media (min-width: 768px) {
-  .swiper {
-    width: 85%;
-  }
-
-}
-
-@media (min-width: 1024px) {
-  .swiper {
-    width: 95%;
-  }
-
-}
-
-@media (min-width: 1280px) {
-  .swiper {
-    width: 70%;
-  }
-
-  /* 
-  .ProjectsSwiper {
-    overflow: hidden !important;
-     Garante que o Swiper não cause scroll lateral 
-  }
-
-  .swiper-slide {
-    overflow: visible !important;
-    Garante que os slides não causem scroll lateral 
-  } */
+.ProjectsSwiper,
+.swiper,
+.swiper-slide {
+  overflow: visible !important;
 }

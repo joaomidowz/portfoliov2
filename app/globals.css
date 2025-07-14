@@ -25,6 +25,16 @@ body {
   font-family: var(--font-all);
 }
 
+/* Oculta scroll no mobile e desktop */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -164,4 +174,11 @@ body {
   .image-footer {
     width: 75px !important;
   }
+}
+
+/* Opcional, só se quiser forçar que nada corte o hover */
+.swiper,
+.swiper-slide,
+.ProjectsSwiper {
+  overflow: visible !important;
 }

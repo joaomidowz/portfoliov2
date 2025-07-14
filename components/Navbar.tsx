@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <>
-            <header className="p-5 bg-primary fixed top-0 left-0 w-full z-50">
+            <header className="p-5 bg-primary top-0 left-0 w-full z-50">
                 <nav className="flex flex-row px-3 justify-between sm:justify-end sm:gap-5 lg:gap-10 font-bold drop-shadow-3xl">
                     <h1 className="text-lg sm:hidden text-secundary font-bold">Midowz</h1>
 

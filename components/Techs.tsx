@@ -6,7 +6,7 @@ export default function Techs() {
             <h2 className="text-base text-primary pt-10 pl-10 lg:text-xl xl:text-2xl">Tecnologias</h2>
             <div className="flex flex-col items-center pt-10 sm:pt-2 xl:pt-0">
                 <Image
-                    className="image-tech lg:w-100 xl:w-[500px] xl:-mt-14"
+                    className="image-tech lg:pt-15 lg:w-100 xl:w-[500px] xl:-mt-14"
                     width={200}
                     height={200}
                     alt="Linkedin"

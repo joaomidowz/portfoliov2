@@ -1,60 +1,53 @@
 "use client";
-import '../app/swiper.css'
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import { useEffect, useRef } from "react";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper/modules';
-import Image from "next/image";
+const Slider = () => {
+    const sliderRef = useRef<HTMLDivElement>(null);
 
-export default function Slider() {
+    const slides = [
+        { img: "/img1.svg", title: "Projeto 1" },
+        { img: "/img2.svg", title: "Projeto 2" },
+        { img: "/img3.svg", title: "Projeto 3" },
+    ];
+
     return (
-        <div className="p-4 overflow-hidden ">
-            <Swiper
-                slidesPerView={1}
-                spaceBetween={10}
-                freeMode={true}
-                loop={true}
-                modules={[Pagination, Navigation]}
-                className="ProjectsSwiper overflow-hidden xl:overflow-visible"
-                breakpoints={{
-                    768: {
-                        slidesPerView: 3,
-                        spaceBetween: 30,
-                    }
+        <div className="relative overflow-x-auto overflow-y-visible scrollbar-hide">
+            <div
+                ref={sliderRef}
+                className="flex mx-auto gap-[26px] px-[26px] py-4 overflow-visible"
+                style={{
+                    scrollSnapType: "x mandatory",
+                    WebkitOverflowScrolling: "touch",
                 }}
             >
-            
-                <SwiperSlide>
-                    <Image
-                        className='Images'
-                        width={497.29}
-                        height={643}
-                        alt=""
-                        src="/onebitflix.svg"
-                        style={{ objectFit: "cover" }} />
-                </SwiperSlide><SwiperSlide>
-                    <Image
-                        className='Images'
-                        width={497.29}
-                        height={643}
-                        alt=""
-                        src="/unichat.svg"
-                        style={{ objectFit: "cover" }} />
-                </SwiperSlide><SwiperSlide>
-                    <Image
-                        className='Images'
-                        width={497.29}
-                        height={643}
-                        alt=""
-                        src="/LoginAnimated.svg"
-                        style={{ objectFit: "cover" }} />
-                </SwiperSlide>
-            </Swiper>
-
+                {slides.map((slide, index) => (
+                    <div
+                        key={index}
+                        data-slide
+                        className="
+              flex-shrink-0 scroll-snap-center
+              cursor-pointer transition-transform duration-300
+              hover:scale-[1.05] active:scale-[0.97]
+              w-[208px] h-[269px]
+              sm:w-[228px] sm:h-[295px]
+              md:w-[230px] md:h-[295px]
+              lg:w-[340px] lg:h-[440px]
+              xl:w-[370px] xl:h-[490px]
+              2xl:w-[497px] 2xl:h-[643px]
+              relative z-10 overflow-visible
+            "
+                    >
+                        <img
+                            src={slide.img}
+                            alt={slide.title}
+                            className="w-full h-full object-contain sliderImg"
+                        />
+                    </div>
+                ))}
+                <div className="flex-shrink-0 w-[1px]" />
+            </div>
         </div>
     );
-}
+};
 
-
+export default Slider;
