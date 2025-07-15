@@ -24,7 +24,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased font-all bg-primary text-secundary">
         <Navbar />
-        <main className="pt- sm:pt-0">
+        <main className="pt-10 sm:pt-0">
           {children}
         </main>
       </body>
