@@ -38,10 +38,10 @@ export default function Project() {
       <section className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-10 items-center px-4 lg:px-16">
         {/* Texto: título + descrição */}
         <div className="text-center lg:text-left max-w-2xl w-full">
-          <h1 className="text-4xl md:text-6xl font-extrabold">
+          <h1 className="text-4xl md:text-6xl font-extrabold text-center">
             {project.title}
           </h1>
-          <p className="mt-4 text-lg md:text-xl">
+          <p className="mt-4 text-lg md:text-xl text-center">
             {project.description}
           </p>
         </div>
@@ -76,7 +76,7 @@ export default function Project() {
         </div>
 
         {/* Descrição técnica */}
-        <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-center lg:text-left">
+        <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-center">
           {project.technical}
         </p>
       </section>
