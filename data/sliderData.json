@@ -1,0 +1,17 @@
+[
+  {
+    "id": "onebitflix",
+    "title": "OneBitFlix",
+    "img": "/sliders/onebitflix.svg"
+  },
+  {
+    "id": "unichat",
+    "title": "Unichat",
+    "img": "/sliders/unichat.svg"
+  },
+  {
+    "id": "login-animated",
+    "title": "Login Animated",
+    "img": "/sliders/login-animated.svg"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "onebitflix",
+    "title": "OneBitFlix",
+    "description": "Plataforma de vídeos inspirada na Netflix, com autenticação e consumo de conteúdo por categorias.",
+    "image": "/posters/onebitflixPrj.svg",
+    "video": "/videos/onebitflix.mp4",
+    "poster": "/posters/onebitflix.jpg",
+    "technical": "Desenvolvido com Next.js, TailwindCSS, autenticação JWT e consumo de vídeos via banco relacional. Interface responsiva com dark mode.",
+    "techs": ["nextjs", "typescript", "tailwind", "prisma"]
+  },
+  {
+    "id": "unichat",
+    "title": "Unichat",
+    "description": "Sistema de mensagens em tempo real para atendimento ao cliente, com múltiplas salas e status de visualização.",
+    "image": "/posters/unichatPrj.svg",
+    "video": "/videos/unichat.mp4",
+    "poster": "/posters/unichat.jpg",
+    "technical": "React com TypeScript, integração em tempo real usando WebSockets e sistema de controle de mensagens com backend escalável.",
+    "techs": ["react", "typescript", "socket.io", "tailwind"]
+  },
+  {
+    "id": "login-animated",
+    "title": "Login Animated",
+    "description": "Tela de login e registro com transições suaves e animações personalizadas entre os formulários.",
+    "image": "/posters/loginPrj.svg",
+    "video": "/videos/login-animated.mp4",
+    "poster": "/posters/login-animated.jpg",
+    "technical": "Animações usando CSS puro com manipulação de DOM em JavaScript. Design clean e responsivo para uso mobile e desktop.",
+    "techs": ["html", "css", "javascript"]
+  },
+  {
+    "id": "gym",
+    "title": "Gym App",
+    "description": "App social para registro de treinos, PRs, streaks e interações com outros usuários da comunidade fitness.",
+    "image": "/posters/gymPrj.svg",
+    "video": "/videos/gym.mp4",
+    "poster": "/posters/gym.jpg",
+    "technical": "Frontend em Next.js (App Router), backend com Node.js e PostgreSQL. Feed de sessões, curtidas, comentários, seguidores e sistema de PRs.",
+    "techs": ["nextjs", "nodejs", "postgresql", "tailwind"]
+  },
+  {
+    "id": "cascavel-runners",
+    "title": "Cascavel Runners",
+    "description": "Sistema de inscrições para eventos de corrida com formulário, envio de comprovante e painel de organização.",
+    "image": "/posters/runPrj.svg",
+    "video": "/videos/cascavel-runners.mp4",
+    "poster": "/posters/cascavel-runners.jpg",
+    "technical": "Frontend em React com consumo de API REST para inscrições em eventos esportivos. Layout adaptado para dispositivos móveis.",
+    "techs": ["react", "typescript", "tailwind"]
+  }
+]

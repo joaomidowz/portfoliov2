@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Portfolio Midowz",
@@ -25,10 +24,9 @@ export default function RootLayout({
       </head>
       <body className="antialiased font-all bg-primary text-secundary">
         <Navbar />
-        <main className="pt-20 sm:pt-0">
+        <main className="pt- sm:pt-0">
           {children}
         </main>
-        <Footer />
       </body>
     </html>
   );
