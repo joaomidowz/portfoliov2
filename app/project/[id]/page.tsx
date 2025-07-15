@@ -35,27 +35,35 @@ export default function Project() {
 
   return (
     <div className="relative min-h-screen bg-primary text-secundary font-all font-bold overflow-x-hidden">
-      <div className="w-full flex justify-center mt-10">
-        <Image
-          src={project.image}
-          alt={project.title}
-          width={448.63}
-          height={446.63}
-          className="w-auto h-auto max-w-none select-none pointer-events-none"
-        />
-      </div>
+      <section className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-10 items-center px-4 lg:px-16">
+        {/* Texto: título + descrição */}
+        <div className="text-center lg:text-left max-w-2xl w-full">
+          <h1 className="text-4xl md:text-6xl font-extrabold">
+            {project.title}
+          </h1>
+          <p className="mt-4 text-lg md:text-xl">
+            {project.description}
+          </p>
+        </div>
 
-      <div className="mt-8 text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-extrabold">
-          {project.title}
-        </h1>
+        {/* Imagem do projeto */}
+        <div className="flex justify-center lg:justify-end w-full pt-10">
+          <Image
+            src={project.image}
+            alt={project.title}
+            width={1601.89}
+            height={1567.34}
+            className="w-full max-w-[1601.89px] h-auto select-none pointer-events-none"
+          />
+        </div>
+      </section>
 
-        <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
-          {project.description}
-        </p>
 
+
+      <section className="px-4 flex flex-col lg:grid lg:grid-cols-2 gap-10 items-center">
+        {/* Vídeo */}
         <div className="mt-8 flex justify-center">
-          <div className="w-[286px] h-[155px] bg-black rounded-lg overflow-hidden">
+          <div className="w-full max-w-[788px] aspect-[788/426] bg-black rounded-lg overflow-hidden">
             <video
               className="w-full h-full object-cover"
               controls
@@ -67,10 +75,14 @@ export default function Project() {
           </div>
         </div>
 
-        <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
+        {/* Descrição técnica */}
+        <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-center lg:text-left">
           {project.technical}
         </p>
+      </section>
 
+
+      <div className="mt-8 text-center px-4">
         <p className="mt-10 text-4xl md:text-xl max-w-3xl mx-auto text-center">
           Linguagens Utilizadas
         </p>
