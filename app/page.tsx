@@ -1,30 +1,11 @@
-'use client'
-import About from "@/components/About";
-import Header from "@/components/Header";
-import Techs from "@/components/Techs"
-import Projects from "@/components/Projects";
-import Footer from "@/components/Footer";
-import { useEffect } from "react";
-import { useSearchParams } from "next/navigation";
+// app/page.tsx
+import { Suspense } from "react";
+import HomeContent from "@/components/HomeContent";
 
-export default function Home() {
-  const searchParams = useSearchParams();
-
-  useEffect(() => {
-    const target = searchParams.get("scrollTo");
-    if (target) {
-      const el = document.getElementById(target);
-      if (el) el.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [searchParams]);
-
+export default function Page() {
   return (
-    <>
-      <section id="home"><Header /></section>
-      <section id="tech" className="scroll-mt-20"><Techs /></section>
-      <section id="about" className="scroll-mt-20"><About /></section>
-      <section id="project" className="scroll-mt-20"><Projects /></section>
-      <section id="footer" className="scroll-mt-20"><Footer /></section>
-    </>
+    <Suspense fallback={<div className="text-center p-4">Carregando...</div>}>
+      <HomeContent />
+    </Suspense>
   );
 }

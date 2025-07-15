@@ -26,7 +26,7 @@ export default function Navbar() {
       <header className="p-5 bg-primary top-0 left-0 w-full z-50 fixed drop-shadow-3xl">
         <nav className="flex flex-row px-3 justify-between sm:justify-end sm:gap-5 lg:gap-10 font-bold drop-shadow-2xl">
           <div className="flex-1">
-            <Image src="/IconMidwz.svg" alt="Logo" width={50} height={50} className="block" />
+            <Image src="/IconMidwz.svg" onClick={() => router.push('/')} alt="Logo" width={50} height={50} className="block cursor-pointer" />
           </div>
 
           <div className="hidden sm:flex gap-3">
