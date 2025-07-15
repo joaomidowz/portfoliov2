@@ -47,13 +47,12 @@ export default function Project() {
         </div>
 
         {/* Imagem do projeto */}
-        <div className="flex justify-center lg:justify-end w-full pt-10">
+        <div className="w-[515px] h-[408px] lg:w-[700px] lg:h-[700px] flex justify-center relative lg:translate-x-[-35px]">
           <Image
             src={project.image}
             alt={project.title}
-            width={1601.89}
-            height={1567.34}
-            className="w-full max-w-[1601.89px] h-auto select-none pointer-events-none"
+            fill
+            className="object-contain select-none pointer-events-none "
           />
         </div>
       </section>
