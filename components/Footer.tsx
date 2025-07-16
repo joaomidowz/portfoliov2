@@ -46,10 +46,10 @@ export default function Footer() {
 
                 <div className="flex flex-row gap-3">
                     <Link href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin className="text-secundary w-[40px] h-[40px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[75px] xl:h-[75px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
+                        <FaLinkedin className="text-secundary w-[20px] h-[20px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[50px] md:h-[50px] lg:w-[55px] lg:h-[55px] xl:w-[55px] xl:h-[55px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
                     </Link>
                     <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
-                        <FaGithub className="text-secundary w-[40px] h-[40px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[75px] xl:h-[75px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
+                        <FaGithub className="text-secundary w-[20px] h-[20px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[50px] md:h-[50px] lg:w-[55px] lg:h-[55px] xl:w-[55px] xl:h-[55px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
                     </Link>
                     <a
                         href="/curriculoJoao.pdf"
@@ -57,7 +57,7 @@ export default function Footer() {
                         download
                         rel="noopener noreferrer"
                     >
-                        <FaFileAlt className="text-secundary w-[40px] h-[40px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[75px] xl:h-[75px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
+                        <FaFileAlt className="text-secundary w-[20px] h-[20px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[50px] md:h-[50px] lg:w-[55px] lg:h-[55px] xl:w-[55px] xl:h-[55px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
                     </a>
                 </div>
             </div>
