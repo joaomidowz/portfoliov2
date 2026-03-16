@@ -18,16 +18,16 @@ export default function Footer() {
         <div className="h-[420px] md:h-[460px] xl:h-[394px] bg-primary font-all font-bold inset-shadow-md text-secundary sm:rounded-none sm:inset-shadow-none">
             <div className="flex flex-col items-center gap-5 lg:text-lg">
                 <div className="flex flex-col items-center gap-5 lg:text-lg xl:flex-row xl:mt-10 xl:bg-secundary xl:px-8 xl:rounded-3xl">
-                    <h2 className="text-lg pt-6 xl:text-primary xl:p-6 xl:text-2xl xl:font-normal xl:italic">
+                    <h2 className="text-lg pt-6 xl:p-6 xl:text-2xl xl:font-normal xl:italic xl:text-primary">
                         Vamos trabalhar juntos!
                     </h2>
                     <div className="flex flex-col items-center gap-5 xl:flex-row-reverse xl:gap-0">
-                        <span className="bg-white p-3 rounded-2xl xl:font-normal xl:italic xl:px-10 xl:-ml-6">
+                        <span className="rounded-2xl bg-white p-3 text-secundary xl:-ml-6 xl:px-10 xl:font-normal xl:italic">
                             {email}
                         </span>
                         <button
                             onClick={handleCopy}
-                            className="text-primary p-4 bg-secundary rounded-2xl xl:font-normal xl:italic xl:bg-terciary xl:text-secundary xl:p-3 xl:z-10 transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
+                            className="rounded-2xl bg-secundary p-4 text-primary transition-transform duration-300 ease-out hover:scale-105 active:scale-90 xl:z-10 xl:border xl:border-secundary/20 xl:bg-primary xl:p-3 xl:font-normal xl:italic xl:text-secundary"
                         >
                             {copied ? "Copiado!" : "Copiar!"}
                         </button>
@@ -45,10 +45,10 @@ export default function Footer() {
                 </div>
 
                 <div className="flex flex-row gap-3">
-                    <Link href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://www.linkedin.com/in/jo%C3%A3omidowz/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="text-secundary w-[20px] h-[20px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[50px] md:h-[50px] lg:w-[55px] lg:h-[55px] xl:w-[55px] xl:h-[55px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
                     </Link>
-                    <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://github.com/joaomidowz" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="text-secundary w-[20px] h-[20px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[50px] md:h-[50px] lg:w-[55px] lg:h-[55px] xl:w-[55px] xl:h-[55px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
                     </Link>
                     <a

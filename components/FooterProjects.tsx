@@ -18,7 +18,7 @@ export default function FooterProjects() {
         <div className="h-[420px] md:h-[460px] xl:h-[394px] bg-primary font-all font-bold text-secundary sm:rounded-none">
             <div className="flex flex-col items-center gap-5 lg:text-lg">
                 <div className="flex flex-col items-center gap-5 lg:text-lg xl:flex-row xl:mt-10 xl:bg-secundary xl:px-8 xl:rounded-3xl">
-                    <h2 className="text-lg pt-6 xl:text-primary xl:p-6 xl:text-2xl xl:font-normal xl:italic">
+                    <h2 className="text-lg pt-6 xl:p-6 xl:text-2xl xl:font-normal xl:italic xl:text-primary">
                         Vamos trabalhar juntos!
                     </h2>
                     <div className="flex flex-col items-center gap-5 xl:flex-row-reverse xl:gap-0">
@@ -27,7 +27,7 @@ export default function FooterProjects() {
                         </span>
                         <button
                             onClick={handleCopy}
-                            className="text-primary p-4 bg-secundary rounded-2xl xl:font-normal xl:italic xl:bg-terciary xl:text-secundary xl:p-3 xl:z-10 transition-transform duration-300 ease-out hover:scale-105 active:scale-90"
+                            className="rounded-2xl bg-secundary p-4 text-primary transition-transform duration-300 ease-out hover:scale-105 active:scale-90 xl:z-10 xl:bg-primary xl:p-3 xl:font-normal xl:italic xl:text-secundary"
                         >
                             {copied ? "Copiado!" : "Copiar!"}
                         </button>
@@ -45,10 +45,10 @@ export default function FooterProjects() {
                 </div>
 
                 <div className="flex flex-row gap-3">
-                    <Link href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://www.linkedin.com/in/jo%C3%A3omidowz/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="text-secundary w-[40px] h-[40px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[75px] xl:h-[75px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
                     </Link>
-                    <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://github.com/joaomidowz" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="text-secundary w-[40px] h-[40px] xs:w-[45px] xs:h-[45px] xs1:w-[50px] xs1:h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[75px] xl:h-[75px] transition-transform duration-300 ease-out hover:scale-105 active:scale-90" />
                     </Link>
                     <a

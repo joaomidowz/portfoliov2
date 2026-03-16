@@ -1,52 +1,71 @@
 [
   {
     "id": "onebitflix",
-    "title": "OneBitFlix",
-    "description": "Plataforma de vídeos inspirada na Netflix, com autenticação e consumo de conteúdo por categorias.",
+    "title": "Plataforma de Conteudo com Area Restrita",
+    "headline": "Uma estrutura digital pensada para valorizar conteudo exclusivo com organizacao, clareza e percepcao de profissionalismo.",
+    "description": "Este case apresenta uma plataforma criada para negocios que precisam disponibilizar conteudo em uma area reservada, com navegacao intuitiva e experiencia visual consistente.",
     "image": "/posters/onebitflixPrj.svg",
-    "video": "/videos/onebitflix.mp4",
-    "poster": "/posters/onebitflix.jpg",
-    "technical": "Desenvolvido com Next.js, TailwindCSS, autenticação JWT e consumo de vídeos via banco relacional. Interface responsiva com dark mode.",
-    "techs": ["nextjs", "typescript", "tailwind", "prisma"]
+    "techs": ["nextjs", "typescript", "tailwind", "prisma"],
+    "clientType": "Empresas, escolas ou especialistas que desejam oferecer conteudo digital em uma area reservada.",
+    "context": "A proposta era transformar o acesso ao conteudo em uma experiencia mais organizada e confiavel, capaz de reforcar o valor do servico oferecido ao usuario final.",
+    "problem": "Sem uma boa estrutura de navegacao, plataformas de conteudo tendem a gerar confusao, dificultar o consumo e reduzir a percepcao de valor da entrega.",
+    "solution": "Desenvolvi uma interface com area autenticada, organizacao por categorias e apresentacao visual inspirada em plataformas consolidadas, mas simplificada para uma experiencia mais direta.",
+    "businessHighlights": [
+      "Organizacao do conteudo por categorias para facilitar a descoberta e o consumo.",
+      "Area de acesso reservada para reforcar exclusividade, controle e profissionalismo.",
+      "Layout responsivo pensado para valorizar a apresentacao em qualquer dispositivo."
+    ],
+    "deliverables": [
+      "Estruturacao da jornada principal da plataforma.",
+      "Desenvolvimento da interface responsiva e da area logada.",
+      "Integracao da camada visual com dados de usuarios e conteudos."
+    ],
+    "result": "O resultado foi um case que demonstra como um ambiente de conteudo pode parecer mais maduro, transmitir mais valor e oferecer uma experiencia mais segura para o usuario."
   },
   {
     "id": "unichat",
-    "title": "Unichat",
-    "description": "Sistema de mensagens em tempo real para atendimento ao cliente, com múltiplas salas e status de visualização.",
+    "title": "Central de Atendimento em Tempo Real",
+    "headline": "Uma interface feita para dar mais agilidade, organizacao e controle a operacoes de atendimento.",
+    "description": "Este case mostra uma central de atendimento desenvolvida para equipes que precisam responder com rapidez, acompanhar conversas simultaneas e reduzir ruido operacional.",
     "image": "/posters/unichatPrj.svg",
-    "video": "/videos/unichat.mp4",
-    "poster": "/posters/unichat.jpg",
-    "technical": "React com TypeScript, integração em tempo real usando WebSockets e sistema de controle de mensagens com backend escalável.",
-    "techs": ["react", "typescript", "socket.io", "tailwind"]
+    "techs": ["react", "typescript", "socket.io", "tailwind"],
+    "clientType": "Empresas com rotina de atendimento, suporte ou relacionamento com clientes.",
+    "context": "A ideia era construir uma experiencia de atendimento que ajudasse a equipe a se orientar melhor durante a operacao e desse mais fluidez ao contato com o cliente.",
+    "problem": "Quando varias conversas acontecem ao mesmo tempo sem uma estrutura clara, o atendimento perde eficiencia, contexto e velocidade de resposta.",
+    "solution": "Desenvolvi uma interface com separacao por conversas, atualizacao em tempo real e elementos visuais de acompanhamento para tornar o fluxo mais claro para quem opera.",
+    "businessHighlights": [
+      "Mensagens atualizadas em tempo real para manter o atendimento fluido.",
+      "Separacao por conversas para reduzir erros e facilitar o acompanhamento.",
+      "Interface pensada para uso continuo, com leitura simples e tomada de acao rapida."
+    ],
+    "deliverables": [
+      "Desenho da experiencia operacional e das telas principais.",
+      "Implementacao da interface integrada com comunicacao em tempo real.",
+      "Estrutura visual preparada para crescer com a rotina do atendimento."
+    ],
+    "result": "Esse case reforca a capacidade de construir interfaces que apoiam a operacao interna da empresa, melhoram a organizacao do atendimento e passam mais seguranca para o time."
   },
   {
     "id": "login-animated",
-    "title": "Login Animated",
-    "description": "Tela de login e registro com transições suaves e animações personalizadas entre os formulários.",
+    "title": "Pagina de Acesso com Experiencia Premium",
+    "headline": "Uma tela de acesso desenvolvida para valorizar a marca desde o primeiro contato com o usuario.",
+    "description": "Este case mostra como uma etapa simples, como login e cadastro, pode ser transformada em uma experiencia mais elegante, consistente e memoravel.",
     "image": "/posters/loginPrj.svg",
-    "video": "/videos/login-animated.mp4",
-    "poster": "/posters/login-animated.jpg",
-    "technical": "Animações usando CSS puro com manipulação de DOM em JavaScript. Design clean e responsivo para uso mobile e desktop.",
-    "techs": ["html", "css", "javascript"]
-  },
-  {
-    "id": "gym",
-    "title": "Gym App",
-    "description": "App social para registro de treinos, PRs, streaks e interações com outros usuários da comunidade fitness.",
-    "image": "/posters/gymPrj.svg",
-    "video": "/videos/gym.mp4",
-    "poster": "/posters/gym.jpg",
-    "technical": "Frontend em Next.js (App Router), backend com Node.js e PostgreSQL. Feed de sessões, curtidas, comentários, seguidores e sistema de PRs.",
-    "techs": ["nextjs", "nodejs", "postgresql", "tailwind"]
-  },
-  {
-    "id": "cascavel-runners",
-    "title": "Cascavel Runners",
-    "description": "Sistema de inscrições para eventos de corrida com formulário, envio de comprovante e painel de organização.",
-    "image": "/posters/runPrj.svg",
-    "video": "/videos/cascavel-runners.mp4",
-    "poster": "/posters/cascavel-runners.jpg",
-    "technical": "Frontend em React com consumo de API REST para inscrições em eventos esportivos. Layout adaptado para dispositivos móveis.",
-    "techs": ["react", "typescript", "tailwind"]
+    "techs": ["html", "css", "javascript"],
+    "clientType": "Empresas e produtos digitais que desejam elevar a percepcao de qualidade em etapas simples da jornada.",
+    "context": "Mesmo telas utilitarias fazem parte da experiencia da marca e influenciam diretamente a percepcao de qualidade do produto.",
+    "problem": "Quando a interface de acesso parece generica ou pouco cuidadosa, o usuario tende a perceber menos valor e menos consistencia no produto como um todo.",
+    "solution": "Criei uma tela com transicoes suaves entre login e cadastro, equilibrando impacto visual, legibilidade e simplicidade de uso.",
+    "businessHighlights": [
+      "Primeira impressao mais forte para reforcar a imagem da marca.",
+      "Transicoes suaves que melhoram a experiencia sem atrapalhar o uso.",
+      "Estrutura leve e adaptavel para diferentes tipos de produto ou sistema."
+    ],
+    "deliverables": [
+      "Design e desenvolvimento da tela de acesso responsiva.",
+      "Implementacao das animacoes e alternancias de estado.",
+      "Organizacao visual pensada para desktop e mobile."
+    ],
+    "result": "O case reforca cuidado com acabamento visual e mostra como detalhes de interface podem aumentar a percepcao de qualidade, credibilidade e consistencia da marca."
   }
 ]
